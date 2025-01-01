@@ -25,3 +25,9 @@ for revenue in revenues:
     revenue = revenue.replace('$', '')
     sum+=int(revenue)
 print(sum)
+
+#another solution
+total = 0
+for revenue in revenues:
+    total+=int(revenue[1:])
+print(f"sum = {total}")
