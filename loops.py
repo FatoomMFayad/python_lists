@@ -10,3 +10,10 @@ net_salaries = []
 for salary in salaries:
     net_salaries.append(salary - 0.05*salary)
 print(net_salaries)
+
+#dollars to dinars
+dollars = [1000, 2000, 3000, 4000]
+dinars = []
+for dollar in dollars:
+    dinars.append(dollar * 0.7)
+print(dinars)
