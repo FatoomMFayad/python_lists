@@ -54,7 +54,7 @@ for number in numbers:
     else:
         odd_cnt += 1
 print(f"count of even numbers = {even_cnt}, and count of odd numbers = {odd_cnt}")
-
+#five multipliers
 five_multipliers = []
 for number in numbers:
     if number % 5 == 0:
