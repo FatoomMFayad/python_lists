@@ -45,7 +45,7 @@ for s in sales:
     if s >= 100:
         print(s)
 #count odd and even numbers in list
-numbers = [7, 2, 12, 4, 7, 23, 21, 22, 60, 41, 46]
+numbers = [7, 2, 12, 4, 7, 23, 5,21, 22, 60, 41, 46]
 even_cnt = 0
 odd_cnt = 0
 for number in numbers:
@@ -54,3 +54,9 @@ for number in numbers:
     else:
         odd_cnt += 1
 print(f"count of even numbers = {even_cnt}, and count of odd numbers = {odd_cnt}")
+
+five_multipliers = []
+for number in numbers:
+    if number % 5 == 0:
+        five_multipliers.append(number)
+print(five_multipliers)
