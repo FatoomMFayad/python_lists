@@ -31,3 +31,10 @@ total = 0
 for revenue in revenues:
     total+=int(revenue[1:])
 print(f"sum = {total}")
+
+#dealing with dates in list
+dates = ['01-01-2020', '05-05-2022', '06-08-2023','04-10-2019']
+years = []
+for d in dates:
+    years.append(int(d[-4:]))
+print(years)
