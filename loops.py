@@ -17,3 +17,11 @@ dinars = []
 for dollar in dollars:
     dinars.append(dollar * 0.7)
 print(dinars)
+
+#revenues
+revenues = ['$4000', '$3500', '$400']
+sum = 0
+for revenue in revenues:
+    revenue = revenue.replace('$', '')
+    sum+=int(revenue)
+print(sum)
