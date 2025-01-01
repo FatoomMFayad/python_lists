@@ -1,3 +1,5 @@
+from itertools import count
+
 salaries = ['$400', '$5000', '$6000']
 salaries2 = [int(i[1:]) for i in salaries]
 print(salaries2)
@@ -17,3 +19,8 @@ print(years)
 names_alt = ['Fatoom', 'Mohammed', '', 'Fayad']
 names3=[name if name!='' else 'Unknown' for name in names ]
 print(names3)
+
+names_list = ['Ahmed', 'Ali', 'Ahmed', 'Omar', 'Adel', 'Ali']
+repeated_names = []
+[repeated_names.append(name) for name in names_list if names_list.count(name) > 1 and name not in repeated_names]
+print(repeated_names)
