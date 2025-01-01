@@ -38,3 +38,9 @@ years = []
 for d in dates:
     years.append(int(d[-4:]))
 print(years)
+
+#greater than or equal 100
+sales = [100, 150, 90, 30, 110, 210, 35]
+for s in sales:
+    if s >= 100:
+        print(s)
