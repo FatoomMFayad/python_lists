@@ -60,3 +60,7 @@ for number in numbers:
     if number % 5 == 0:
         five_multipliers.append(number)
 print(five_multipliers)
+
+#print hello tem times
+for i in range(10):
+    print('hello')
