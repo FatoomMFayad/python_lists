@@ -49,3 +49,8 @@ del(sample[0])
 del(sample[-2])
 del(sample[-1])
 print(sample)
+#8.	Write a Python program to print the numbers of a specified list after removing even numbers from it
+lst = [1, 5, 4, 6, 8, 9, 11]
+odd_numbers = [num for num in lst if num % 2 != 0]
+print(odd_numbers)
+
