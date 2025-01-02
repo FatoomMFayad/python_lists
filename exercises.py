@@ -61,3 +61,9 @@ for char in chars:
     my_string+=char
 print(my_string)
 
+#10.	Write a Python program to get unique values from a list
+names = ['Sally', 'Dalia', 'Sally', 'Hend', 'Nour', 'Ola', 'Hend']
+unique = []
+[unique.append(n) for n in names if n not in unique]
+print(unique)
+
