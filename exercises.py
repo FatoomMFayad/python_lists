@@ -21,3 +21,8 @@ for s in strings:
     if len(s) >= 2 and s[0] == s[-1]:
         count += 1
 print(count)
+
+#4.	Write a Python program to clone or copy a list.
+nums = [1, 2, 3, 4, 5]
+y = [n for n in nums]
+print(y)
