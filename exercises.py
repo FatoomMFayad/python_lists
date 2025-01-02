@@ -40,3 +40,12 @@ for i in first:
     if i in second:
         result = True
 print(result)
+
+#7.	Write a Python program to print a specified list after removing the 0th, 4th and 5th elements.
+#Sample List : ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+#Expected Output : ['Green', 'White', 'Black']
+sample = ['Red', 'Green', 'White', 'Black', 'Pink', 'Yellow']
+del(sample[0])
+del(sample[-2])
+del(sample[-1])
+print(sample)
