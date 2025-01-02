@@ -26,3 +26,8 @@ print(count)
 nums = [1, 2, 3, 4, 5]
 y = [n for n in nums]
 print(y)
+
+#5.	Write a Python program to find the index of an item in a specified list
+my_list = ['hi', 'hello', 'salam', 'bye']
+indx = my_list.index('hello')
+print(indx)
