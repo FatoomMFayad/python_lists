@@ -67,3 +67,20 @@ unique = []
 [unique.append(n) for n in names if n not in unique]
 print(unique)
 
+#11.	Write a Python program to count the number of elements in a list within a specified range
+# Define the list of numbers
+numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100]
+
+# Define the range
+lower_bound = 30
+upper_bound = 70
+
+# Use range to define the specified range
+specified_range = range(lower_bound, upper_bound + 1)
+
+# Count the number of elements in the range
+specified = [num for num in numbers if num in specified_range]
+count = len(specified)
+
+# Print the result
+print(f"Number of elements in the range [{lower_bound}, {upper_bound}]: {count}")
