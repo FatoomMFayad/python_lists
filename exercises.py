@@ -31,3 +31,12 @@ print(y)
 my_list = ['hi', 'hello', 'salam', 'bye']
 indx = my_list.index('hello')
 print(indx)
+
+#6.	Write a Python function that takes two lists and returns True if they have at least one common member
+first = ['hi', 'hello', 'salam', 'bye']
+second = ['hello', 'salam', 'bye']
+result = False
+for i in first:
+    if i in second:
+        result = True
+print(result)
