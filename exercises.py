@@ -54,3 +54,10 @@ lst = [1, 5, 4, 6, 8, 9, 11]
 odd_numbers = [num for num in lst if num % 2 != 0]
 print(odd_numbers)
 
+#9.	Write a Python program to convert a list of characters into a string
+chars = ['h', 'e', 'l', 'l', 'o']
+my_string = ''
+for char in chars:
+    my_string+=char
+print(my_string)
+
